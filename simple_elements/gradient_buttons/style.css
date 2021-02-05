@@ -1,0 +1,47 @@
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 300px 300px 300px;
+    height: 600px;
+}
+
+.button {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    height: 36px;
+    padding-top: 2px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+#simple_grad {
+    background: linear-gradient(deepskyblue, white);
+}
+
+#convex_grad {
+    background: linear-gradient(limegreen, darkgreen, limegreen);
+}
+
+#an_convex_grad{
+    color: white;
+    background: linear-gradient(white 1%, deepskyblue, dodgerblue);
+}
+
+#veb2_0_grad{
+    color: white;
+    background: linear-gradient(white, #aaaaaa, #666666 50%, #555555 60%, #444444 70%, #222222 80%);
+}
+
+#depressed_grad{
+    background: linear-gradient(to right bottom, #eeeeee, #bbbbbb);
+    border: 5px inset white;
+}
