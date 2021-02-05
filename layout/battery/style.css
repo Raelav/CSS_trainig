@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #888888;
+}
+
+#batteries {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.battery {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.battery-body{
+    width: 500px;
+    border: 10px solid black;
+    background: white;
+    display: flex;
+}
+
+.battery-contact{
+    width: 15px;
+    height: 30%;
+    background: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.battery-charge {
+    margin-top: auto;
+    height: 100%;
+    display: block;
+}
+
+.low-charge{
+    width: 33%;
+    background: red;
+}
+
+.middle-charge{
+    width: 66%;
+    background: yellow;
+}
+
+.high-charge{
+    width: 100%;
+    background: forestgreen;
+}
